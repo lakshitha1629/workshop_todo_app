@@ -1,6 +1,15 @@
+##Tutorials
+Good Youtube Chanels 
+YOUTUBE
+https://www.youtube.com/channel/UC7R7bcH9-KEBDiGNP1mZnmw
+
+FACEBOOK Code
+https://facebook.github.io/react-native/
+
+
 ##ADD GITHUB
 ```
-git remote add origin https://github.com/thuyiya/common_pack.git
+git remote add origin <ADD YOUR REMOTE URL>
 
 git remote set-url origin https://github.com/octocat/Spoon-Knife.git
 
@@ -10,11 +19,20 @@ git remote set-url origin https://github.com/octocat/Spoon-Knife.git
 npm config set proxy http://cache.uwu.ac.lk:3128
 
 
-##VsCode Setups
-install extentions
-ESLint
-EditorConfigGenarator  CMD+SHIFT+P
-EQuimper React-native/React/Redux/snipets for es6/es7 version Standard 
+##Download VSCode
+
+##VsCode Setups and install extentions
+
+1. ESLint Setups 
+  `npm i --save-dev eslint-config-equimper`
+  then create .eslint
+  add ```{
+    "extends": "equimper"
+  }```
+2. Download VSCode Extentions
+    EditorConfigGenarator
+    then go to CMD+SHIFT+P
+3. EQuimper React-native/React/Redux/snipets for es6/es7 version Standard 
 
 ```
 "eslint.autoFixOnSave": true,
