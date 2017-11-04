@@ -513,3 +513,19 @@ async function read () {
   console.log(txt);
 }
 ```
+
+#Ref
+```
+CrowdSolution -> https://github.com/CrowderiaSolution/react-native-expo-boilerplate
+NodeJS -> https://nodejs.org/en/
+Eslint     -> https://eslint.org/
+Babel    -> https://babeljs.io/
+Expo     -> https://expo.io/
+Android Studio -> https://developer.android.com/studio/index.html
+Xcode -> https://developer.apple.com/xcode/
+Promises -> https://ponyfoo.com/articles/understanding-javascript-async-await
+React Native -> https://facebook.github.io/react-native/
+Firebase -> https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html
+What is react -> https://wetalkit.xyz/react-native-what-it-is-and-how-it-works-e2182d008f5e
+
+```
