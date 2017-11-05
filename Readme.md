@@ -1,4 +1,4 @@
-##Tutorials
+## Tutorials
 Good Youtube Chanels 
 YOUTUBE
 https://www.youtube.com/channel/UC7R7bcH9-KEBDiGNP1mZnmw
@@ -8,7 +8,7 @@ https://facebook.github.io/react-native/
 
 CrowdSolution -> https://github.com/CrowderiaSolution/react-native-expo-boilerplate
 
-##ADD GITHUB
+## ADD GITHUB
 ```
 git remote add origin <ADD YOUR REMOTE URL>
 
@@ -16,13 +16,13 @@ git remote set-url origin https://github.com/octocat/Spoon-Knife.git
 
 ```
 
-##set npm cache
+## set npm cache
 npm config set proxy http://cache.uwu.ac.lk:3128
 
 
-##Download VSCode
+## Download VSCode
 
-##VsCode Setups and install extentions
+## VsCode Setups and install extentions
 
 1. ESLint Setups 
   `npm i --save-dev eslint-config-equimper`
@@ -39,14 +39,14 @@ npm config set proxy http://cache.uwu.ac.lk:3128
 "eslint.autoFixOnSave": true,
 ```
 
-##imports
+## imports
 
 import react, react native
 
-##Create Compinent
+## Create Compinent
 eddcs
 
-##create header
+## create header
 
 1. add container 
 
@@ -96,7 +96,7 @@ container: {
   },
 ```
 
-##add Task area (ScrollView)
+## add Task area (ScrollView)
 
 ```
 <ScrollView style={styles.scrollContainer}>
@@ -113,7 +113,7 @@ scrollContainer: {
   },
 ```
 
-##create Fotter
+## create Fotter
 ```
 <View style={styles.footer}>
     
@@ -131,7 +131,7 @@ footer: {
   },
 ```
 
-##Add AddButton
+## Add AddButton
 ```
 <TouchableOpacity onPress={() => this.addNote()} style={styles.addButton}>
         <Text style={styles.addButtonText}>+</Text>
@@ -159,7 +159,7 @@ addButton: {
   },
 ```
 
-##Create Input Field
+## Create Input Field
 ```
 <TextInput
         style={styles.textInput}
@@ -185,7 +185,7 @@ InputField Style
   },
 ```
 
-##add state
+## add state
 
 ```
 state = {
@@ -196,11 +196,11 @@ state = {
 ```
 
 
-#Create Note Component
+# Create Note Component
 Create new js file under src/components/Note.js
 
 
-#Note List
+# Note List
 
 ```
 const notes = this.state.noteArray.map((val, key) => 
@@ -213,7 +213,7 @@ const notes = this.state.noteArray.map((val, key) =>
     );
 ```
 
-##Note Component
+## Note Component
 
 ```
 import React from 'react';
@@ -242,7 +242,7 @@ const styles = {
 }
 ```
 
-##Complete new Note
+## Complete new Note
 
 ```
 import React from 'react';
@@ -299,7 +299,7 @@ export default Note;
 
 ```
 
-##Complete App.js code
+## Complete App.js code
 
 ```
 import React, { Component } from 'react';
@@ -514,7 +514,7 @@ async function read () {
 }
 ```
 
-#Ref
+# Ref
 ```
 CrowdSolution -> https://github.com/CrowderiaSolution/react-native-expo-boilerplate
 NodeJS -> https://nodejs.org/en/
